@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Project Management | Sai sadhan Saravanan</title>
+    <link>https://saisadhan.github.io/tag/project-management/</link>
+      <atom:link href="https://saisadhan.github.io/tag/project-management/index.xml" rel="self" type="application/rss+xml" />
+    <description>Project Management</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Jan 2021 19:51:30 -0500</lastBuildDate>
+    <image>
+      <url>https://saisadhan.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <title>Project Management</title>
+      <link>https://saisadhan.github.io/tag/project-management/</link>
+    </image>
+    
+    <item>
+      <title>Meditation Workbook</title>
+      <link>https://saisadhan.github.io/project/meditationworkbook/</link>
+      <pubDate>Thu, 14 Jan 2021 19:51:30 -0500</pubDate>
+      <guid>https://saisadhan.github.io/project/meditationworkbook/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
