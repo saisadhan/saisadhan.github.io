@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Keras | Sai sadhan Saravanan</title>
-    <link>https://saisadhan.github.io/tag/keras/</link>
-      <atom:link href="https://saisadhan.github.io/tag/keras/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://chwdy.github.io/tag/keras/</link>
+      <atom:link href="https://chwdy.github.io/tag/keras/index.xml" rel="self" type="application/rss+xml" />
     <description>Keras</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Apr 2021 15:46:01 -0500</lastBuildDate>
     <image>
-      <url>https://saisadhan.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chwdy.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Keras</title>
-      <link>https://saisadhan.github.io/tag/keras/</link>
+      <link>https://chwdy.github.io/tag/keras/</link>
     </image>
     
     <item>
       <title>NLP Email Subject Analysis</title>
-      <link>https://saisadhan.github.io/project/nlp_email/</link>
+      <link>https://chwdy.github.io/project/nlp_email/</link>
       <pubDate>Thu, 15 Apr 2021 15:46:01 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/nlp_email/</guid>
+      <guid>https://chwdy.github.io/project/nlp_email/</guid>
       <description></description>
     </item>
     

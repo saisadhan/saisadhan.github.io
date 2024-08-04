@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Machine Learning | Sai sadhan Saravanan</title>
-    <link>https://saisadhan.github.io/tag/machine-learning/</link>
-      <atom:link href="https://saisadhan.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://chwdy.github.io/tag/machine-learning/</link>
+      <atom:link href="https://chwdy.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 15 Apr 2021 15:46:01 -0500</lastBuildDate>
     <image>
-      <url>https://saisadhan.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chwdy.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Machine Learning</title>
-      <link>https://saisadhan.github.io/tag/machine-learning/</link>
+      <link>https://chwdy.github.io/tag/machine-learning/</link>
     </image>
     
     <item>
       <title>NLP Email Subject Analysis</title>
-      <link>https://saisadhan.github.io/project/nlp_email/</link>
+      <link>https://chwdy.github.io/project/nlp_email/</link>
       <pubDate>Thu, 15 Apr 2021 15:46:01 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/nlp_email/</guid>
+      <guid>https://chwdy.github.io/project/nlp_email/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Student Performance Prediction</title>
-      <link>https://saisadhan.github.io/project/studentperf/</link>
+      <link>https://chwdy.github.io/project/studentperf/</link>
       <pubDate>Fri, 15 Jan 2021 15:45:13 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/studentperf/</guid>
+      <guid>https://chwdy.github.io/project/studentperf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Covid19 Effect Analysis</title>
-      <link>https://saisadhan.github.io/project/covid19effect/</link>
+      <link>https://chwdy.github.io/project/covid19effect/</link>
       <pubDate>Fri, 15 Jan 2021 15:45:00 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/covid19effect/</guid>
+      <guid>https://chwdy.github.io/project/covid19effect/</guid>
       <description>&lt;p&gt;Background: Given the Covid 19 positive cases number around the world ,we try to combine the economic, population, edcation data to predict the effect on GDP among selected country.&lt;/p&gt;
 &lt;p&gt;Task performed:&lt;/p&gt;
 &lt;ul&gt;
@@ -47,9 +47,9 @@
     
     <item>
       <title>Loan Default Risk Prediction</title>
-      <link>https://saisadhan.github.io/project/defaultrisk/</link>
+      <link>https://chwdy.github.io/project/defaultrisk/</link>
       <pubDate>Fri, 15 Jan 2021 15:42:46 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/defaultrisk/</guid>
+      <guid>https://chwdy.github.io/project/defaultrisk/</guid>
       <description></description>
     </item>
     

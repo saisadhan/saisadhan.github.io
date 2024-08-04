@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Business Analysis | Sai sadhan Saravanan</title>
-    <link>https://saisadhan.github.io/tag/business-analysis/</link>
-      <atom:link href="https://saisadhan.github.io/tag/business-analysis/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://chwdy.github.io/tag/business-analysis/</link>
+      <atom:link href="https://chwdy.github.io/tag/business-analysis/index.xml" rel="self" type="application/rss+xml" />
     <description>Business Analysis</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 Apr 2021 15:46:01 -0500</lastBuildDate>
     <image>
-      <url>https://saisadhan.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>https://chwdy.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Business Analysis</title>
-      <link>https://saisadhan.github.io/tag/business-analysis/</link>
+      <link>https://chwdy.github.io/tag/business-analysis/</link>
     </image>
     
     <item>
       <title>Sponsor Position Analysis</title>
-      <link>https://saisadhan.github.io/project/sponsorpositionanalysis/</link>
+      <link>https://chwdy.github.io/project/sponsorpositionanalysis/</link>
       <pubDate>Fri, 16 Apr 2021 15:46:01 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/sponsorpositionanalysis/</guid>
+      <guid>https://chwdy.github.io/project/sponsorpositionanalysis/</guid>
       <description></description>
     </item>
     
     <item>
       <title>NLP Email Subject Analysis</title>
-      <link>https://saisadhan.github.io/project/nlp_email/</link>
+      <link>https://chwdy.github.io/project/nlp_email/</link>
       <pubDate>Thu, 15 Apr 2021 15:46:01 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/nlp_email/</guid>
+      <guid>https://chwdy.github.io/project/nlp_email/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Youtube Trending Analysis</title>
-      <link>https://saisadhan.github.io/project/youtubetrending/</link>
+      <link>https://chwdy.github.io/project/youtubetrending/</link>
       <pubDate>Fri, 15 Jan 2021 15:46:01 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/youtubetrending/</guid>
+      <guid>https://chwdy.github.io/project/youtubetrending/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Perspective Students Persona Modeling</title>
-      <link>https://saisadhan.github.io/project/persona/</link>
+      <link>https://chwdy.github.io/project/persona/</link>
       <pubDate>Fri, 15 Jan 2021 15:43:01 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/persona/</guid>
+      <guid>https://chwdy.github.io/project/persona/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Loan Default Risk Prediction</title>
-      <link>https://saisadhan.github.io/project/defaultrisk/</link>
+      <link>https://chwdy.github.io/project/defaultrisk/</link>
       <pubDate>Fri, 15 Jan 2021 15:42:46 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/defaultrisk/</guid>
+      <guid>https://chwdy.github.io/project/defaultrisk/</guid>
       <description></description>
     </item>
     
