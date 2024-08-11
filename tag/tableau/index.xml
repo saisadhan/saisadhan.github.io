@@ -2,37 +2,37 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tableau | Sai sadhan Saravanan</title>
-    <link>https://chwdy.github.io/tag/tableau/</link>
-      <atom:link href="https://chwdy.github.io/tag/tableau/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://saisadhan.github.io/tag/tableau/</link>
+      <atom:link href="https://saisadhan.github.io/tag/tableau/index.xml" rel="self" type="application/rss+xml" />
     <description>Tableau</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jan 2021 15:44:32 -0500</lastBuildDate>
     <image>
-      <url>https://chwdy.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>https://saisadhan.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Tableau</title>
-      <link>https://chwdy.github.io/tag/tableau/</link>
+      <link>https://saisadhan.github.io/tag/tableau/</link>
     </image>
     
     <item>
       <title>Coal Terminal Maintenance Analysis</title>
-      <link>https://chwdy.github.io/project/coalterminal/</link>
+      <link>https://saisadhan.github.io/project/coalterminal/</link>
       <pubDate>Fri, 15 Jan 2021 15:44:32 -0500</pubDate>
-      <guid>https://chwdy.github.io/project/coalterminal/</guid>
+      <guid>https://saisadhan.github.io/project/coalterminal/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Coffee Shop Expansion Analysis</title>
-      <link>https://chwdy.github.io/project/coffeestore/</link>
+      <link>https://saisadhan.github.io/project/coffeestore/</link>
       <pubDate>Fri, 15 Jan 2021 15:43:31 -0500</pubDate>
-      <guid>https://chwdy.github.io/project/coffeestore/</guid>
+      <guid>https://saisadhan.github.io/project/coffeestore/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Cloth Retail Analysis</title>
-      <link>https://chwdy.github.io/project/clothretail/</link>
+      <link>https://saisadhan.github.io/project/clothretail/</link>
       <pubDate>Fri, 15 Jan 2021 15:43:15 -0500</pubDate>
-      <guid>https://chwdy.github.io/project/clothretail/</guid>
+      <guid>https://saisadhan.github.io/project/clothretail/</guid>
       <description></description>
     </item>
     

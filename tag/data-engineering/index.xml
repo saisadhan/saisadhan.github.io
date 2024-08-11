@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Data Engineering | Sai sadhan Saravanan</title>
-    <link>https://chwdy.github.io/tag/data-engineering/</link>
-      <atom:link href="https://chwdy.github.io/tag/data-engineering/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://saisadhan.github.io/tag/data-engineering/</link>
+      <atom:link href="https://saisadhan.github.io/tag/data-engineering/index.xml" rel="self" type="application/rss+xml" />
     <description>Data Engineering</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Jan 2021 15:45:00 -0500</lastBuildDate>
     <image>
-      <url>https://chwdy.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
+      <url>https://saisadhan.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
       <title>Data Engineering</title>
-      <link>https://chwdy.github.io/tag/data-engineering/</link>
+      <link>https://saisadhan.github.io/tag/data-engineering/</link>
     </image>
     
     <item>
       <title>Covid19 Effect Analysis</title>
-      <link>https://chwdy.github.io/project/covid19effect/</link>
+      <link>https://saisadhan.github.io/project/covid19effect/</link>
       <pubDate>Fri, 15 Jan 2021 15:45:00 -0500</pubDate>
-      <guid>https://chwdy.github.io/project/covid19effect/</guid>
+      <guid>https://saisadhan.github.io/project/covid19effect/</guid>
       <description>&lt;p&gt;Background: Given the Covid 19 positive cases number around the world ,we try to combine the economic, population, edcation data to predict the effect on GDP among selected country.&lt;/p&gt;
 &lt;p&gt;Task performed:&lt;/p&gt;
 &lt;ul&gt;
