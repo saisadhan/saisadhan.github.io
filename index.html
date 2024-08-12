@@ -647,8 +647,6 @@
         <li class="nav-item">
           <a class="nav-link " href="/Saravanan, Sai sadhan Profile.pdf"><span>Resume</span></a>
         </li>
-
-        
         
 
       
@@ -656,6 +654,38 @@
         
       </ul>
     </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+        
+      <li class="nav-item" id="viewCounterContainer">
+        <div class="profile-view-counter">
+            <div class="counter-icon">
+                <i class="fas fa-eye"></i> <!-- Font Awesome Eye Icon -->
+            </div>
+            <div class="counter-text">Views</div>
+            <div class="number-display" id="viewCount">
+                <!-- Digits will be dynamically inserted here -->
+            </div>
+        </div>
+    </li>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+          let viewCountElement = document.getElementById("viewCount");
+
+          // Simulate retrieving and incrementing view count
+          let viewCount = parseInt(localStorage.getItem("viewCount")) || 0;
+          viewCount += 1;
+
+          // Update the view count in the UI
+          viewCountElement.innerHTML = viewCount.toString().split('').map(digit => 
+              `<div class="digit">${digit}</div>`).join('');
+
+          // Store the updated view count back to local storage
+          localStorage.setItem("viewCount", viewCount);
+      });
+  </script>
+  </ul>
 
     <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
 
@@ -1236,7 +1266,7 @@
     
     
     <a href="https://github.com/saisadhan/Customer-Segmentation-Analysis" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/customersegmentation/featured_hu803af060fd4b46475af799684b842dab_123932_550x0_resize_lanczos_2.png" alt="Customer Segmentation Analysis" class="img-responsive" loading="lazy">
+      <img src="/project/customersegmentation/customer_segmentation_analysis.png" alt="Customer Segmentation Analysis" class="img-responsive" loading="lazy">
     </a>
     
     <div class="card-text">
