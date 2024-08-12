@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Business Analysis | Sai sadhan Saravanan</title>
+    <title>Data Analytics | Sai sadhan Saravanan</title>
     <link>https://saisadhan.github.io/tag/business-analysis/</link>
       <atom:link href="https://saisadhan.github.io/tag/business-analysis/index.xml" rel="self" type="application/rss+xml" />
-    <description>Business Analysis</description>
+    <description>Data Analytics</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 16 Apr 2021 15:46:01 -0500</lastBuildDate>
     <image>
       <url>https://saisadhan.github.io/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_2.png</url>
-      <title>Business Analysis</title>
+      <title>Data Analytics</title>
       <link>https://saisadhan.github.io/tag/business-analysis/</link>
     </image>
     
@@ -20,19 +20,13 @@
       <description></description>
     </item>
     
-    <item>
-      <title>NLP Email Subject Analysis</title>
-      <link>https://saisadhan.github.io/project/nlp_email/</link>
-      <pubDate>Thu, 15 Apr 2021 15:46:01 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/nlp_email/</guid>
-      <description></description>
-    </item>
+
     
     <item>
       <title>Youtube Trending Analysis</title>
-      <link>https://saisadhan.github.io/project/youtubetrending/</link>
+      <link>https://saisadhan.github.io/project/customersegmentation/</link>
       <pubDate>Fri, 15 Jan 2021 15:46:01 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/youtubetrending/</guid>
+      <guid>https://saisadhan.github.io/project/customersegmentation/</guid>
       <description></description>
     </item>
     

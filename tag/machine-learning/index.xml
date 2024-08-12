@@ -13,43 +13,19 @@
     </image>
     
     <item>
-      <title>NLP Email Subject Analysis</title>
-      <link>https://saisadhan.github.io/project/nlp_email/</link>
+      <title>NLP Social Media Sentiment Analysis</title>
+      <link>https://saisadhan.github.io/project/nlp_social_media_analytics/</link>
       <pubDate>Thu, 15 Apr 2021 15:46:01 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/nlp_email/</guid>
+      <guid>https://saisadhan.github.io/project/nlp_social_media_analytics/</guid>
       <description></description>
     </item>
     
-    <item>
-      <title>Student Performance Prediction</title>
-      <link>https://saisadhan.github.io/project/studentperf/</link>
-      <pubDate>Fri, 15 Jan 2021 15:45:13 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/studentperf/</guid>
-      <description></description>
-    </item>
     
     <item>
-      <title>Covid19 Effect Analysis</title>
-      <link>https://saisadhan.github.io/project/covid19effect/</link>
-      <pubDate>Fri, 15 Jan 2021 15:45:00 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/covid19effect/</guid>
-      <description>&lt;p&gt;Background: Given the Covid 19 positive cases number around the world ,we try to combine the economic, population, edcation data to predict the effect on GDP among selected country.&lt;/p&gt;
-&lt;p&gt;Task performed:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Grouping countries in to 3 groups based on there GDP per capita&lt;/li&gt;
-&lt;li&gt;Trained linear regression model with historical GDP data&lt;/li&gt;
-&lt;li&gt;Trained linear regression model to find the relationship between economic effects and attributes of a country&lt;/li&gt;
-&lt;li&gt;Predict and analyse the effect of 8 countries among 3 different income groups&lt;/li&gt;
-&lt;li&gt;Visualized the groups and results&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Loan Default Risk Prediction</title>
-      <link>https://saisadhan.github.io/project/defaultrisk/</link>
+      <title>Predictive Modeling for Credit Card Default Risk</title>
+      <link>https://github.com/saisadhan/Predictive-Modeling-for-Credit-Card-Default-Risk-Assessment/blob/main/README.md</link>
       <pubDate>Fri, 15 Jan 2021 15:42:46 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/defaultrisk/</guid>
+      <guid>https://github.com/saisadhan/Predictive-Modeling-for-Credit-Card-Default-Risk-Assessment/blob/main/README.md</guid>
       <description></description>
     </item>
     

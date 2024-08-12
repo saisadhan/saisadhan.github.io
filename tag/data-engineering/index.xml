@@ -12,22 +12,6 @@
       <link>https://saisadhan.github.io/tag/data-engineering/</link>
     </image>
     
-    <item>
-      <title>Covid19 Effect Analysis</title>
-      <link>https://saisadhan.github.io/project/covid19effect/</link>
-      <pubDate>Fri, 15 Jan 2021 15:45:00 -0500</pubDate>
-      <guid>https://saisadhan.github.io/project/covid19effect/</guid>
-      <description>&lt;p&gt;Background: Given the Covid 19 positive cases number around the world ,we try to combine the economic, population, edcation data to predict the effect on GDP among selected country.&lt;/p&gt;
-&lt;p&gt;Task performed:&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Grouping countries in to 3 groups based on there GDP per capita&lt;/li&gt;
-&lt;li&gt;Trained linear regression model with historical GDP data&lt;/li&gt;
-&lt;li&gt;Trained linear regression model to find the relationship between economic effects and attributes of a country&lt;/li&gt;
-&lt;li&gt;Predict and analyse the effect of 8 countries among 3 different income groups&lt;/li&gt;
-&lt;li&gt;Visualized the groups and results&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
     
   </channel>
 </rss>

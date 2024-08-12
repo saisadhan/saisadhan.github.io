@@ -321,7 +321,7 @@
     <link rel="manifest" href="/index.webmanifest" />
   
 
-  <link rel="icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_2.png" />
+  <link rel="icon" type="image/png" href="/media/consultant.png" />
   <link rel="apple-touch-icon" type="image/png" href="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_2.png" />
 
   <link rel="canonical" href="https://saisadhan.github.io/" />
@@ -645,7 +645,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/Diwei_Zhu_NYU_IE_9178646724_210418-DA.pdf"><span>Resume</span></a>
+          <a class="nav-link " href="/Saravanan, Sai sadhan Profile.pdf"><span>Resume</span></a>
         </li>
 
         
@@ -868,33 +868,72 @@
             <i class="fab fa-linkedin big-icon"></i>
           </a>
         </li>
-        
+
       </ul>
 
     </div>
   </div>
   <div class="col-12 col-lg-8">
 
-    
-    
+    <body>
+
+      <div id="container">
+          <div id="prefix">I'm</div>
+          <div id="title"></div>
+      </div>
+      
+      <script>
+          const titles = ["Tech Enthusiast", "Tech Consultant", "Business / Data Analyst"];
+          let index = 0;
+          let charIndex = 0;
+          let isDeleting = false;
+          const titleElement = document.getElementById("title");
+          const typingSpeed = 100;
+          const deletingSpeed = 50;
+          const delayBetweenTitles = 3000;
+      
+          function typeTitle() {
+              const currentTitle = titles[index];
+              if (isDeleting) {
+                  titleElement.textContent = currentTitle.substring(0, charIndex--);
+                  if (charIndex < 0) {
+                      isDeleting = false;
+                      index = (index + 1) % titles.length;
+                      setTimeout(typeTitle, typingSpeed);
+                  } else {
+                      setTimeout(typeTitle, deletingSpeed);
+                  }
+              } else {
+                  titleElement.textContent = currentTitle.substring(0, charIndex++);
+                  if (charIndex > currentTitle.length) {
+                      isDeleting = true;
+                      setTimeout(typeTitle, delayBetweenTitles);
+                  } else {
+                      setTimeout(typeTitle, typingSpeed);
+                  }
+              }
+          }
+      
+          typeTitle(); // Initial call to start the typing effect
+      </script>
+      
+      </body>
 
     <div class="article-style">
-      <p>Hello, I am Sai sadhan Saravanan, a programming enthusiast who loves to seek logic behind technical solutions. I see the programming as a stepping stone to the problem solving and I see data as an accurate record of a real-life scenario; be it a problem or a solution. I love to discover the problem behind the numbers and find the solutions with them.</p>
-<p>My programming journey began in junior high school where I really enjoyed the process of creating cool solutions in a form of applications. It has always felt rewarding and, the excitement has extended my abilities from building the small applications to the bigger more complex ones which uses machine learning.</p>
-<p>With the advent of AI and machine learning, my feeling for the data and its use has solidified. This is exactly what I want to do! It makes me feel astonished at how vast amounts of data can be made use of in such benefiting ways. What first started as a novice learning took the form of a passion, a desire to decode and understand the technology to its core.</p>
-<p>I am passionate about Data Analytics, Business Analytics, and Programming, and I look forward to harnessing every opportunity to learn better.</p>
-<ul>
-<li>Currently seeking opportunities for Business/ Data Analysts, consultant, and Business Intelligence Engineer</li>
-<li>Current student of Industrial engineering at NYU, expect to graduate in May 2021</li>
-</ul>
-<p>The following are my technical abilities:</p>
-<ul>
-<li>Programming - Python, R, SQL, HTML, CSS, JavaScript</li>
-<li>Data Visualization - Tableau(certified), Seaborn, Matplotlib</li>
-<li>Front End frameworks - Node.JS and ReactJS</li>
+
+        <p style="font-size: 20px;">I am Sai Sadhan Saravanan, an experienced IT professional skilled in SQL and Python for data analysis, web application development, and cloud computing. 
+          I have worked across diverse industries, including banking and finance, manufacturing, and retail markets.</p>
+        <p style="font-size: 20px;">With a master’s degree in Management Information Systems, specializing in Data Analytics, from the prestigious W. P. Carey School of Business at Arizona State University, I have a strong foundation in both technical and business acumen, including statistical analysis, machine learning, cloud computing, information security, data governance, project management, and data-driven decision-making. 
+          I possess an ambitious mindset and a tendency to dream big, which drives me to seek innovative solutions and push boundaries. I have a thirst for knowledge and a passion for data, and I am excited to contribute my skills and dedication to making a meaningful impact in the tech industry.</p>
+<p style="font-size: 20px;">The following are my technical abilities:</p>
+<ul style="font-size: 20px;">
+<li>Programming Languages- Python, SQL, HTML, CSS, JavaScript</li>
+<li>Data Storages - SQL Server, MY SQL, Google BigQuery, GCS, Amazon Redshift</li>
+<li>Data Visualization - Tableau, Seaborn, Matplotlib, SSRS</li>
+<li>Front End frameworks - AngularJs</li>
 </ul>
 <p>
-  <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/Diwei_Zhu_NYU_IE_9178646724_210418-DA.pdf" target="_blank">resumé</a>.</p>
+  <i class="fas fa-download  pr-1 fa-fw"></i> Download my <a href="/Saravanan, Sai sadhan Profile.pdf" target="_blank">resumé</a>.</p>
 
     </div>
 
@@ -1007,7 +1046,8 @@
             <h1 class="mb-0">Projects</h1>
             
           </div>
-        
+  
+  
       
     
 
@@ -1058,12 +1098,7 @@
               
               
               
-              <a href="#" data-filter=".js-id-Machine-Learning" class="btn btn-primary btn-lg">Machine Learning</a>
-            
-              
-              
-              
-              <a href="#" data-filter=".js-id-Business-Analysis" class="btn btn-primary btn-lg">Business Analysis</a>
+              <a href="#" data-filter=".js-id-Business-Analysis" class="btn btn-primary btn-lg">Data Analytics</a>
             
           </div>
         </div>
@@ -1104,458 +1139,7 @@
 
 
 
-<div class="project-card project-item isotope-item js-id-Business-Analysis">
-  <div class="card">
-    
-    
-    <a href="/project/sponsorpositionanalysis/Presentation.pdf" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/sponsorpositionanalysis/featured_hu8844c69a590db9d79483d9ee5fcb1c8b_138559_550x0_resize_lanczos_2.png" alt="Sponsor Position Analysis" class="img-responsive" loading="lazy">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/sponsorpositionanalysis/Presentation.pdf" target="_blank" rel="noopener">Sponsor Position Analysis</a></h4>
 
-      
-      <div class="article-style">
-        <p>Determine whether ths client&rsquo;s logo is in the best position using the logo recognition result from API</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-NLP js-id-Keras js-id-Business-Analysis">
-  <div class="card">
-    
-    
-    <a href="/project/nlp_email/Presentation.pdf" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/nlp_email/featured_hu7e43eb6cad09b34e9f6fc689efa55cac_138559_550x0_resize_lanczos_2.png" alt="NLP Email Subject Analysis" class="img-responsive" loading="lazy">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/nlp_email/Presentation.pdf" target="_blank" rel="noopener">NLP Email Subject Analysis</a></h4>
-
-      
-      <div class="article-style">
-        <p>Evaluated the effectivness of client&rsquo;s marketing email subject</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Business-Analysis">
-  <div class="card">
-    
-    
-    <a href="/project/youtubetrending/Presentation.pdf" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/youtubetrending/featured_hu803af060fd4b46475af799684b842dab_123932_550x0_resize_lanczos_2.png" alt="Youtube Trending Analysis" class="img-responsive" loading="lazy">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/youtubetrending/Presentation.pdf" target="_blank" rel="noopener">Youtube Trending Analysis</a></h4>
-
-      
-      <div class="article-style">
-        <p>summairzed the features of trending videos and created an engagament score to measure channels performance</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-IE">
-  <div class="card">
-    
-    
-    <a href="/project/factorysim/Presentation.pdf" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/factorysim/featured_hu88679c4f6be6e0e352e64f77c9921aac_171354_550x0_resize_lanczos_2.png" alt="Factory Simulation Project" class="img-responsive" loading="lazy">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/factorysim/Presentation.pdf" target="_blank" rel="noopener">Factory Simulation Project</a></h4>
-
-      
-      <div class="article-style">
-        <p>Using Witness to simulate the production environment</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Machine-Learning">
-  <div class="card">
-    
-    <div class="card-text">
-      <h4><a href="/project/studentperf/report.pdf" target="_blank" rel="noopener">Student Performance Prediction</a></h4>
-
-      
-      <div class="article-style">
-        <p>Predict student&rsquo;s final grade range based on their background</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Data-Engineering">
-  <div class="card">
-    
-    <div class="card-text">
-      <h4><a href="/project/covid19effect/Presentation.pdf" target="_blank" rel="noopener">Covid19 Effect Analysis</a></h4>
-
-      
-      <div class="article-style">
-        <p>Estimate the econimic effect on GDP On specific countries (Python)</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Tableau">
-  <div class="card">
-    
-    
-    <a href="https://public.tableau.com/profile/diwei.zhu#!/vizhome/CoalTerminalMaintenanceAnalysisMockup_16109128549490/report" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/coalterminal/featured_hu17d4300cbdade8f55d716674026f0f2c_358311_550x0_resize_lanczos_2.png" alt="Coal Terminal Maintenance Analysis" class="img-responsive" loading="lazy">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="https://public.tableau.com/profile/diwei.zhu#!/vizhome/CoalTerminalMaintenanceAnalysisMockup_16109128549490/report" target="_blank" rel="noopener">Coal Terminal Maintenance Analysis</a></h4>
-
-      
-      <div class="article-style">
-        <p>Status report on machine idle time, explore it real condition and provide maintanence advice</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Tableau">
-  <div class="card">
-    
-    
-    <a href="https://public.tableau.com/profile/diwei.zhu#!/vizhome/CoffeeShopExpansionAnalysis_16109356276380/Story1" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/coffeestore/featured_hu019d3a32b3a3e775ea948fe702a20ecb_77889_550x0_resize_lanczos_2.png" alt="Coffee Shop Expansion Analysis" class="img-responsive" loading="lazy">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="https://public.tableau.com/profile/diwei.zhu#!/vizhome/CoffeeShopExpansionAnalysis_16109356276380/Story1" target="_blank" rel="noopener">Coffee Shop Expansion Analysis</a></h4>
-
-      
-      <div class="article-style">
-        <p>Calculated distance between existing coffe shop and suggest expansion location with monthly sales</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Tableau">
-  <div class="card">
-    
-    
-    <a href="https://public.tableau.com/profile/diwei.zhu#!/vizhome/ClothRetailAnalysis_16109219485020/finalpresentaion" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/clothretail/featured_hu3042b18baad9772ed82bb9a0bb8869f4_31139_550x0_resize_lanczos_2.png" alt="Cloth Retail Analysis" class="img-responsive" loading="lazy">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="https://public.tableau.com/profile/diwei.zhu#!/vizhome/ClothRetailAnalysis_16109219485020/finalpresentaion" target="_blank" rel="noopener">Cloth Retail Analysis</a></h4>
-
-      
-      <div class="article-style">
-        <p>Visualizaed Sales data of cloths in four states in Australia and Predict its trends on monthly basis</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
-
-      
-
-    
-
-      
-      
-      
-        
-        
-      
-
-      
-        
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<div class="project-card project-item isotope-item js-id-Business-Analysis">
-  <div class="card">
-    
-    
-    <a href="/project/persona/Presentation.pdf" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/persona/featured_hu484103f98117c17e36a7ac735b849e93_155734_550x0_resize_lanczos_2.png" alt="Perspective Students Persona Modeling" class="img-responsive" loading="lazy">
-    </a>
-    
-    <div class="card-text">
-      <h4><a href="/project/persona/Presentation.pdf" target="_blank" rel="noopener">Perspective Students Persona Modeling</a></h4>
-
-      
-      <div class="article-style">
-        <p>Build perspective students persona based on historial database for River university marketing department</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
 
       
 
@@ -1588,50 +1172,357 @@
   <div class="card">
     
     
-    <a href="/project/defaultrisk/Presentation.pdf" target="_blank" rel="noopener" class="card-image hover-overlay">
-      <img src="/project/defaultrisk/featured_hu91f8353920733e6953d183617f5a2502_46515_550x0_resize_lanczos_2.png" alt="Loan Default Risk Prediction" class="img-responsive" loading="lazy">
+    <a href="https://github.com/saisadhan/Social-Media-Analytics/blob/main/README.md" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/nlp_social_media_analytics/valorant_banner.jpg" alt="NLP Social Media Sentiment Analysis" class="img-responsive" loading="lazy">
     </a>
     
     <div class="card-text">
-      <h4><a href="/project/defaultrisk/Presentation.pdf" target="_blank" rel="noopener">Loan Default Risk Prediction</a></h4>
+      <h4><a href="https://github.com/saisadhan/Social-Media-Analytics/blob/main/README.md" target="_blank" rel="noopener">NLP Social Media Sentiment Analysis</a></h4>
 
       
       <div class="article-style">
-        <p>Using machine learning model to predict the clients' probability of paying back the loan</p>
+        <p>• Leveraged 5 Python API wrappers for data extraction of gamers’ Reddit discussions on the game “Valorant”<br>
+          • Determined sentiments of gamers using natural language processing with Google BERT, and Llama2 LLM using Python LangChain<br>
+          • Applied LDA topic modeling to uncover topics in sentiment labels, and identified strategies to improve player retention by 16%
+          </p>
+      </div>
+      
+      <a class="btn btn-outline-primary btn-page-header btn-sm" href="project\nlp_social_media_analytics\Social Media Sentiment Analysis.pdf" target="_blank" rel="noopener">
+        PDF
+      </a>
+      
+        
+      <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/saisadhan/Social-Media-Analytics/blob/main/README.md" target="_blank" rel="noopener">
+        Code
+      </a>
+
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+        
+        
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Business-Analysis">
+  <div class="card">
+    
+    
+    <a href="https://github.com/saisadhan/Customer-Segmentation-Analysis" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/customersegmentation/featured_hu803af060fd4b46475af799684b842dab_123932_550x0_resize_lanczos_2.png" alt="Customer Segmentation Analysis" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/saisadhan/Customer-Segmentation-Analysis" target="_blank" rel="noopener">Customer Segmentation Analysis</a></h4>
+
+      
+      <div class="article-style">
+        <p>• Performed data preprocessing, utilized Silhouette analysis and the Elbow Method to determine the optimal number of clusters K <br>
+          • Applied K-Means Clustering, and identified 3 distinct customer segments based on purchasing behavior, demographics, and socioeconomic factors <br>
+          • Analyzed the characteristics of identified clusters, and suggested actionable insights for targeted marketing strategies</p>
+      </div>
+
+      <a class="btn btn-outline-primary btn-page-header btn-sm" href="\project\customersegmentation\Customers_segmentation.pdf" target="_blank" rel="noopener">
+        PDF
+      </a>
+      
+      
+      
+      
+        
+        
+          
+        
+      <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/saisadhan/Customer-Segmentation-Analysis" target="_blank" rel="noopener">
+        Code
+      </a>
+      
+
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+        
+        
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Business-Analysis js-id-Keras">
+  <div class="card">
+    
+    
+    <a href="https://github.com/saisadhan/Fruit-Recognition-Quantity-and-Quality-Estimation-Using-Robotic-Vision-System/blob/main/README.md" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/fruit/prototype.jpeg" alt="Fruit Recognition, Quantity,  and Quality Estimation Using Robotic Vision System" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/saisadhan/Fruit-Recognition-Quantity-and-Quality-Estimation-Using-Robotic-Vision-System/blob/main/README.md" target="_blank" rel="noopener">Fruit Recognition, Quantity,  and Quality Estimation Using Robotic Vision System</a></h4>
+
+      
+      <div class="article-style">
+        <p>Automated fruit recognition, quantity estimation, quality assessment, and disease detection processes using computer vision</p>
+      </div>
+      
+      <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/fruit/Fruit Project Presentation.pdf" target="_blank" rel="noopener">
+        PDF
+      </a>
+      
+      <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/saisadhan/Fruit-Recognition-Quantity-and-Quality-Estimation-Using-Robotic-Vision-System/blob/main/README.md" target="_blank" rel="noopener">
+        Code
+      </a>
+
+      
+    </div>
+  </div>
+</div>
+
+      
+
+<div class="project-card project-item isotope-item js-id-Tableau">
+  <div class="card">
+    
+    
+    <a href="https://public.tableau.com/app/profile/sai.sadhan.saravanan/viz/VideoGamesSales_17116205004700/Dashboard" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="project\gamesales\Video Games Sales.png" alt="Video Games Sales Analysis" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://public.tableau.com/app/profile/sai.sadhan.saravanan/viz/VideoGamesSales_17116205004700/Dashboard" target="_blank" rel="noopener">Video Games Sales Analysis</a></h4>
+
+      
+      <div class="article-style">
+        <p> Analyzed the video game sales trends, exploring genres, platforms, and global sales over the years</p>
+      </div>
+      
+
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+        
+        
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Tableau">
+  <div class="card">
+    
+    
+    <a href="https://public.tableau.com/views/CTA_Saisadhan_Saravanan/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/CTA_network/CTA Network.png" alt="Chicago Transit Authority (CTA) Analysis" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://public.tableau.com/views/CTA_Saisadhan_Saravanan/Dashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener">Chicago Transit Authority (CTA) Analysis</a></h4>
+
+      
+      <div class="article-style">
+        <p>Analyzed the network structure of the Chicago Transit Authority (CTA) and identified accessible and unaccessible locations</p>
+      </div>
+      
+
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+        
+        
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Tableau">
+  <div class="card">
+    
+    
+    <a href="https://public.tableau.com/shared/XRKCDJQ4B?:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/flightdelay/flight delay.png" alt="Flight Depature Delays Analysis" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://public.tableau.com/shared/XRKCDJQ4B?:display_count=n&:origin=viz_share_link" target="_blank" rel="noopener">Flight Depature Delays Analysis</a></h4>
+
+      
+      <div class="article-style">
+        <p>Analyzed flight depature delays data to identify patterns and factors influencing flight punctuality</p>
+      </div>
+      
+
+      
+    </div>
+  </div>
+</div>
+
+      
+
+    
+
+      
+      
+      
+        
+        
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+      
+
+    
+
+      
+      
+      
+        
+        
+      
+
+      
+        
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+<div class="project-card project-item isotope-item js-id-Machine-Learning js-id-Business-Analysis">
+  <div class="card">
+    
+    
+    <a href="https://github.com/saisadhan/Predictive-Modeling-for-Credit-Card-Default-Risk-Assessment/blob/main/README.md" target="_blank" rel="noopener" class="card-image hover-overlay">
+      <img src="/project/defaultrisk/CC default risk predicton ROC Comparison.png" alt="Predictive Modeling for Credit Card Default Risk" class="img-responsive" loading="lazy">
+    </a>
+    
+    <div class="card-text">
+      <h4><a href="https://github.com/saisadhan/Predictive-Modeling-for-Credit-Card-Default-Risk-Assessment/blob/main/README.md" target="_blank" rel="noopener">Predictive Modeling for Credit Card Default Risk</a></h4>
+
+      
+      <div class="article-style">
+        <p>• Predicted customer’s credit card bill repayment probability by analyzing the credit history and other socioeconomic factors <br>
+          • Performed feature engineering to select relevant variables, enhancing model performance, built decision tree, and ensemble tree 
+          models, evaluated with cross-validation based on accuracy and AUC, chose AdaBoost for its high accuracy of 83% <br>
+          • Derived actionable insights from the prediction, and recommended strategies to mitigate credit risk and improve customer retention</p>
       </div>
       
 
       
       <div class="btn-links">
-        
+           
 
-
-
-
-
-
-
-
-  
-    
-  
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/defaultrisk/Presentation.pdf" target="_blank" rel="noopener">
-  PDF
-</a>
-
-
-
-
-  
-  
-    
-  
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/saisadhan//BA-Project2-RCode" target="_blank" rel="noopener">
-  Code
-</a>
 
 
 
@@ -1679,22 +1570,6 @@
 
 
 
-<div class="project-card project-item isotope-item js-id-Project-Management">
-  <div class="card">
-    
-    <div class="card-text">
-      <h4><a href="https://saisadhan.github.io/MeditationWorkbook/" target="_blank" rel="noopener">Meditation Workbook</a></h4>
-
-      
-      <div class="article-style">
-        <p>Beginner guidebook for meditation, Course project of Project Management</p>
-      </div>
-      
-
-      
-    </div>
-  </div>
-</div>
 
       
 
@@ -1850,7 +1725,7 @@
     <div class="featurette-icon"><i class="fab fa-chrome"></i></div>
     
     <div class="section-subheading">Web Development</div>
-    <p>HTML, CSS, Node.js, RESTful</p>
+    <p>HTML, CSS, Node.js, AngularJs, RESTful</p>
   </div>
   
 </div>
@@ -1941,7 +1816,7 @@
         <div class="col">&nbsp;</div>
       </div>
       <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
+        <span class="badge badge-pill border exp-fill ">&nbsp;</span>
       </div>
       <div class="row h-50">
         <div class="col border-right">&nbsp;</div>
@@ -1977,7 +1852,7 @@
         <div class="col">&nbsp;</div>
       </div>
       <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
+        <span class="badge badge-pill border exp-fill ">&nbsp;</span>
       </div>
       <div class="row h-50">
         <div class="col border-right">&nbsp;</div>
@@ -2015,7 +1890,7 @@
         <div class="col">&nbsp;</div>
       </div>
       <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
+        <span class="badge badge-pill border exp-fill ">&nbsp;</span>
       </div>
       <div class="row h-50">
         <div class="col border-right">&nbsp;</div>
@@ -2051,7 +1926,7 @@
         <div class="col">&nbsp;</div>
       </div>
       <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
+        <span class="badge badge-pill border exp-fill ">&nbsp;</span>
       </div>
       <div class="row h-50">
         <div class="col border-right ">&nbsp;</div>
@@ -2088,7 +1963,7 @@
         <div class="col">&nbsp;</div>
       </div>
       <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
+        <span class="badge badge-pill border exp-fill ">&nbsp;</span>
       </div>
       <div class="row h-50">
         <div class="col ">&nbsp;</div>
@@ -2256,7 +2131,7 @@ Coursework:</p>
         <div class="col">&nbsp;</div>
       </div>
       <div class="m-2">
-        <span class="badge badge-pill border ">&nbsp;</span>
+        <span class="badge badge-pill border exp-fill ">&nbsp;</span>
       </div>
       <div class="row h-50">
         <div class="col">&nbsp;</div>
@@ -2276,7 +2151,7 @@ Coursework:</p>
             
           </div>
           <div class="card-text">Grade: 71%<br>
-Coursework : Quality Control &amp; Reliability, System Engineering, Production Planning &amp; Control</div>
+Coursework : OOPS and Data Structres, Computer Architecture, Computer Networks, Principle of Management</div>
         </div>
       </div>
     </div>
@@ -2521,7 +2396,7 @@ Coursework : Quality Control &amp; Reliability, System Engineering, Production P
         
         
         
-        <a href="/tag/business-analysis/" style="font-size:1.8677177222151053rem">Business Analysis</a>
+        <a href="/tag/business-analysis/" style="font-size:1.8677177222151053rem">Data Analytics</a>
       
         
         
